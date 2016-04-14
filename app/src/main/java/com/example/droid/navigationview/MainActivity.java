@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity
             Toast.makeText(getApplicationContext(), "Anda Berada di halaman HomePage", Toast.LENGTH_SHORT)
                     .show();
             TextView hello = (TextView)findViewById(R.id.txtHome);
-            
+
 
         } else if (id == R.id.profile) {
             Fragment FG = new ProfilePage();
