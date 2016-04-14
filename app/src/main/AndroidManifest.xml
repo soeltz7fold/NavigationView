@@ -1,23 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.droid.navigationview">
+    package="com.example.droid.navigationview" >
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_launch"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme" >
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".HomePage"
+            android:label="Halaman Utama"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:icon="@drawable/ic_home_icon"/>
+        <activity
+            android:name=".ContactPage"
+            android:label="Halaman Alamat"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:icon="@drawable/ic_contact_icon"/>
+        <activity
+            android:name=".ProfilePage"
+            android:label="Halaman Profil"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:icon="@drawable/ic_profile_icon"/>
     </application>
 
 </manifest>

@@ -4,16 +4,16 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:icon="@drawable/ic_home_icon"
+            android:title="HOME" />
         <item
             android:id="@+id/profile"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:icon="@drawable/ic_profile_icon"
+            android:title="PROFILE" />
         <item
             android:id="@+id/contact"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:icon="@drawable/ic_contact_icon"
+            android:title="CONTACT" />
 
     </group>
 
@@ -22,7 +22,7 @@
             <item
                 android:id="@+id/exit"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="Exit" />
             <!--<item-->
                 <!--android:id="@+id/nav_send"-->
                 <!--android:icon="@drawable/ic_menu_send"-->

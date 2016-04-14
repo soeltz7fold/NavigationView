@@ -6,5 +6,12 @@
 
     <string name="action_settings">Settings</string>
     <string name="Username">ADMIN</string>
-    <string name="email">android.studio@android.com</string>
+<string name="Email">dwikuntobayu@kiranatama.com</string>
+    <string name="home_page">\"HELLO HOME\"</string>
+    <string name="txtContact">\"HELLO\"</string>
+    <string name="name">Name : M Dwikuntobayu</string>
+    <string name="job">JOB : Web Developer</string>
+    <string name="address">Jl. Sukabumi Dalam, &amp;
+        Bandung, Indonesia</string>
+    <string name="welcome">\"WELCOME\"</string>
 </resources>
