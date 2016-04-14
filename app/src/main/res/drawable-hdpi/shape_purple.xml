@@ -4,20 +4,20 @@
     xmlns:solid="http://schemas.android.com/apk/res-auto"
     android:shape="rectangle">
     <gradient
-        android:angle="135"
+        android:angle="90"
         android:centerColor="#FF00E2"
         android:endColor="#DC00FF"
         android:startColor="#B100FF"
         android:type="linear"/>
     <!--<solid android:color="@color/purple"/>-->
-    <!--<stroke android:width="3dip"/>-->
-    <!--<corners android:radius="25dip"/>-->
-    <!--<padding-->
-        <!--android:left="0dip"-->
-        <!--android:bottom="0dip"-->
-        <!--android:right="0dip"-->
-        <!--android:top="0dip"-->
-        <!--/>-->
+    <stroke android:width="3dip"/>
+    <corners android:radius="25dip"/>
+    <padding
+    android:left="0dip"
+    android:bottom="0dip"
+    android:right="0dip"
+    android:top="0dip"
+    />
 
 
 </shape>

@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+
 //        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
 //        fab.setOnClickListener(new View.OnClickListener() {
 //            @Override
@@ -95,6 +97,10 @@ public class MainActivity extends AppCompatActivity
             FT.commit();
             Toast.makeText(getApplicationContext(), "Anda Berada di halaman HomePage", Toast.LENGTH_SHORT)
                     .show();
+            TextView hello = (TextView)findViewById(R.id.txtHome);
+            
+
+            }
 
         } else if (id == R.id.profile) {
             Fragment FG = new ProfilePage();

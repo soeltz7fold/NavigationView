@@ -18,17 +18,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
+        <fragment
             android:name=".HomePage"
             android:label="Halaman Utama"
             android:theme="@style/AppTheme.NoActionBar"
             android:icon="@drawable/ic_home_icon"/>
-        <activity
+        <fragment
             android:name=".ContactPage"
             android:label="Halaman Alamat"
             android:theme="@style/AppTheme.NoActionBar"
             android:icon="@drawable/ic_contact_icon"/>
-        <activity
+        <fragment
             android:name=".ProfilePage"
             android:label="Halaman Profil"
             android:theme="@style/AppTheme.NoActionBar"

@@ -3,12 +3,13 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/fragment_home"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/content_view"
     tools:context="com.example.droid.navigationview.HomePage"
-    android:background="@color/black">
+    android:background="@color/black"
+    android:id="@+id/fragment_home">
 
     <!--tools:showIn="@layout/app_bar_main"-->
     <RelativeLayout
