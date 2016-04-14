@@ -100,8 +100,6 @@ public class MainActivity extends AppCompatActivity
             TextView hello = (TextView)findViewById(R.id.txtHome);
             
 
-            }
-
         } else if (id == R.id.profile) {
             Fragment FG = new ProfilePage();
             FragmentManager FM = getSupportFragmentManager();
